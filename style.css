@@ -1,0 +1,202 @@
+body {
+    text-align: center !important;
+    background-color:white !important;
+    margin: 0 !important;
+    font: 400 15px/1.8 "Lato", sans-serif !important;
+    color:blue !important;
+}
+hr{color: blue;
+  
+}
+.card {
+   /* height: 100px !important;
+    width: 100px !important;*/
+    display: inline-block !important;
+    border: 1px solid rgb(58, 75, 224) !important;
+    margin: 10px !important;
+    padding: 10px !important;
+    color: rgb(137, 19, 180) !important;
+    box-shadow: 0 4px 8px 0 rgba(96, 185, 233, 0.927);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (min-width:0px) and (max-width: 450px) {
+   
+  .card{width:90%}
+  
+}
+@media screen and (min-width:450px) and (max-width: 768px) {
+   
+  .card{width: 30%;}
+  
+}
+@media screen and (min-width:780px)  {
+   
+  .card{width: 15%;}
+  
+}
+
+#homeSection{background-image: url("https://media.istockphoto.com/id/1369269456/photo/data-technology-computer-generated-digital-currency-and-exchange-stock-chart-for-finance-and.jpg?s=612x612&w=0&k=20&c=d67fX-8gwwUsdtUtXgQj5IaV-My-ugIjDyxRgreTZeE=");}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://media.istockphoto.com/id/1369269456/photo/data-technology-computer-generated-digital-currency-and-exchange-stock-chart-for-finance-and.jpg?s=612x612&w=0&k=20&c=d67fX-8gwwUsdtUtXgQj5IaV-My-ugIjDyxRgreTZeE=");
+  /* Full height */
+  height: 90% !important; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+  text-align: center;
+  text-emphasis:calc(Edge 99, Firefox 46, Safari 7, Chrome 99, Opera 15)!important;
+  
+}
+body, html {
+    height: 100% !important;
+  }
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  h1{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: rgb(100, 216, 234);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }  
+nav{color: rgb(72, 86, 214);}
+button{background-color:rgb(100, 216, 234) !important;
+  border: 2px solid rgb(58, 75, 224);
+  border-radius: 20%   !important;
+  color: rgb(58, 75, 224);
+}
+#bttnswitch{
+  display: flex;
+   flex-direction: row;     
+}
+/*about */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.second-title{
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.cardabout {
+  box-shadow: 0 4px 8px 0 rgba(96, 185, 233, 0.927);
+  margin: 8px;
+  color: rgb(90, 150, 155);
+}
+
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2 {
+  color: rgb(84, 39, 233);
+}
+h6,#symbol{color: #194669;}
+#hr{  color: rgb(84, 39, 233)}
+.buttonabout{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(65, 175, 169);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttonabout:hover {
+  background-color: rgb(137, 205, 237);
+}
+
+.rounded{
+height: 90px;
+width: 60px;
+padding-top: 15 px !important;
+
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+ 
+}
+
+/* spinner  */
+
+.loader {
+  border: 5px solid #4196d6;
+  border-radius: 50%;
+  border-top: 5px solid blue;
+  border-right: 5px solid green;
+  border-bottom: 5px solid red;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin-left: 38%;
+  margin-top: 2%;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.hidden{
+  display: none ;
+}
